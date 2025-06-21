@@ -38,7 +38,7 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
         </aside>
 
         {/* Main */}
-        <main className="flex-1 p-6 bg-black">
+        <main className="flex-1 p-6 bg-black flex justify-center items-center">
           {children}
         </main>
       </div>
